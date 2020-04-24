@@ -1,0 +1,84 @@
+.path-blocks-selfenrollment .modality-self:before {
+    content: "\f007";
+}
+
+.path-blocks-selfenrollment .modality-tutor:before {
+    content: "\f0c0";
+}
+
+.block_selfenrollment_table .icon-more {
+    cursor: pointer;
+}
+
+.path-blocks-selfenrollment .icon-more:before {
+    content: "\f00e";
+}
+
+#page-blocks-selfenrollment-search .conventions {
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #888;
+}
+
+#page-blocks-selfenrollment-search .conventions span {
+    margin-right: 5px;
+}
+
+#page-blocks-selfenrollment-search .conventions span.fa {
+    margin-left: 15px;
+}
+
+.block_selfenrollment_table_view {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.block_selfenrollment_table_view th {
+    text-align: right;
+    background-color: #ddd;
+}
+
+.block_selfenrollment_table_view th,
+.block_selfenrollment_table_view td {
+        padding: 8px;
+        line-height: 20px;
+        vertical-align: top;
+        border-top: 1px solid #ddd;
+        word-wrap: break-word;
+        display: table-cell;
+}
+
+.block_selfenrollment_table_view .full-line th {
+    text-align: center;
+}
+
+#block_selfenrollment_offer_modality span {
+    margin-right: 10px;
+}
+
+.block_selfenrollment .current {
+    background-color: #ddd;
+    padding: 5px;
+}
+
+.path-blocks-selfenrollment .generalbox.specialbox {
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin: 10px auto 20px;
+}
+
+.path-blocks-selfenrollment .generaltable thead:first-child tr:first-child th,
+.path-blocks-selfenrollment .generaltable thead:first-child tr:first-child th a {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.path-blocks-selfenrollment .generaltable > tbody .numeric {
+    text-align: right;
+}
+
+#page-blocks-selfenrollment-search .box_filter_top {
+    padding-top: 10px;
+    font-weight: bold;
+}
