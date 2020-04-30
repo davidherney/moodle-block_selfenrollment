@@ -48,7 +48,7 @@ class block_selfenrollment_cohortoffer_edit_form extends moodleform {
         $cohorts = $DB->get_records_menu('cohort',
                                             array('visible'=>true),
                                             'name',
-                                            "id, " . $DB->sql_concat('name', '(', 'idnumber', ')'));
+                                            "id, " . $DB->sql_concat('name', "'('", 'idnumber', "')'"));
         $mform->addElement('select', 'cohortid', get_string('cohort', 'cohort'), $cohorts);
 
         $mform->addElement('date_time_selector', 'timestart', get_string('timestart', 'block_selfenrollment'), $dateattributes);
